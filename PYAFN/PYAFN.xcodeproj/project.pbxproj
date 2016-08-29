@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A26D1F1D55983F0037E9BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26D1E1D55983F0037E9BF /* main.m */; };
+		18A26D221D55983F0037E9BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26D211D55983F0037E9BF /* AppDelegate.m */; };
+		18A26D251D55983F0037E9BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26D241D55983F0037E9BF /* ViewController.m */; };
+		18A26D281D55983F0037E9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A26D261D55983F0037E9BF /* Main.storyboard */; };
+		18A26D2A1D55983F0037E9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A26D291D55983F0037E9BF /* Assets.xcassets */; };
+		18A26D2D1D55983F0037E9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A26D2B1D55983F0037E9BF /* LaunchScreen.storyboard */; };
+		18A26D381D5598400037E9BF /* PYAFNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26D371D5598400037E9BF /* PYAFNTests.m */; };
+		18A26D431D5598400037E9BF /* PYAFNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26D421D5598400037E9BF /* PYAFNUITests.m */; };
+		18A26D5C1D55B3A40037E9BF /* NetWrokRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26D5B1D55B3A40037E9BF /* NetWrokRequestHelper.m */; };
+		18A26D791D55C6280037E9BF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26D781D55C6280037E9BF /* RootViewController.m */; };
+		18A26D7E1D55E3920037E9BF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A26D7D1D55E3920037E9BF /* BaseViewController.m */; };
+		20176264AD7A3B695C348E67 /* libPods-PYAFNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B36815801EA16E1A98BB4F1 /* libPods-PYAFNTests.a */; };
+		2F202344685FC7EFB250F191 /* libPods-PYAFN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F075CCB9DEEB811FEC6872CE /* libPods-PYAFN.a */; };
+		702B6F2819064CF01D9CA55D /* libPods-PYAFNUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B448A566BB9A32A0E4E2A60 /* libPods-PYAFNUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A26D341D5598400037E9BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A26D121D55983F0037E9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A26D191D55983F0037E9BF;
+			remoteInfo = PYAFN;
+		};
+		18A26D3F1D5598400037E9BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A26D121D55983F0037E9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A26D191D55983F0037E9BF;
+			remoteInfo = PYAFN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA426032B59DEAE0B88E234 /* Pods-PYAFN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAFN.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYAFN/Pods-PYAFN.release.xcconfig"; sourceTree = "<group>"; };
+		18A26D1A1D55983F0037E9BF /* PYAFN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYAFN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A26D1E1D55983F0037E9BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A26D201D55983F0037E9BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A26D211D55983F0037E9BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A26D231D55983F0037E9BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A26D241D55983F0037E9BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A26D271D55983F0037E9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A26D291D55983F0037E9BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A26D2C1D55983F0037E9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A26D2E1D55983F0037E9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A26D331D5598400037E9BF /* PYAFNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYAFNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A26D371D5598400037E9BF /* PYAFNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYAFNTests.m; sourceTree = "<group>"; };
+		18A26D391D5598400037E9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A26D3E1D5598400037E9BF /* PYAFNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYAFNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A26D421D5598400037E9BF /* PYAFNUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYAFNUITests.m; sourceTree = "<group>"; };
+		18A26D441D5598400037E9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A26D5A1D55B3A40037E9BF /* NetWrokRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWrokRequestHelper.h; sourceTree = "<group>"; };
+		18A26D5B1D55B3A40037E9BF /* NetWrokRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWrokRequestHelper.m; sourceTree = "<group>"; };
+		18A26D771D55C6280037E9BF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = BaseViewController/RootViewController.h; sourceTree = "<group>"; };
+		18A26D781D55C6280037E9BF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = BaseViewController/RootViewController.m; sourceTree = "<group>"; };
+		18A26D7C1D55E3920037E9BF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18A26D7D1D55E3920037E9BF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1E9BE6609F3E8F696DFD3B6D /* Pods-PYAFNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAFNUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYAFNUITests/Pods-PYAFNUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2BF81033822CF5C73DC15952 /* Pods-PYAFN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAFN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYAFN/Pods-PYAFN.debug.xcconfig"; sourceTree = "<group>"; };
+		4E928EFB614414D511A4B9B9 /* Pods-PYAFNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAFNTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYAFNTests/Pods-PYAFNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B448A566BB9A32A0E4E2A60 /* libPods-PYAFNUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYAFNUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B36815801EA16E1A98BB4F1 /* libPods-PYAFNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYAFNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		933628DB6138968FEAD38210 /* Pods-PYAFNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAFNTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYAFNTests/Pods-PYAFNTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD2DF618222EE1EA28BADE07 /* Pods-PYAFNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAFNUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYAFNUITests/Pods-PYAFNUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F075CCB9DEEB811FEC6872CE /* libPods-PYAFN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYAFN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A26D171D55983F0037E9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F202344685FC7EFB250F191 /* libPods-PYAFN.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A26D301D5598400037E9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20176264AD7A3B695C348E67 /* libPods-PYAFNTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A26D3B1D5598400037E9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702B6F2819064CF01D9CA55D /* libPods-PYAFNUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A26D111D55983F0037E9BF = {
+			isa = PBXGroup;
+			children = (
+				18A26D1C1D55983F0037E9BF /* PYAFN */,
+				18A26D361D5598400037E9BF /* PYAFNTests */,
+				18A26D411D5598400037E9BF /* PYAFNUITests */,
+				18A26D1B1D55983F0037E9BF /* Products */,
+				C7FA007184807AA59F670C8B /* Pods */,
+				73C562D95289F2717F096087 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18A26D1B1D55983F0037E9BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A26D1A1D55983F0037E9BF /* PYAFN.app */,
+				18A26D331D5598400037E9BF /* PYAFNTests.xctest */,
+				18A26D3E1D5598400037E9BF /* PYAFNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A26D1C1D55983F0037E9BF /* PYAFN */ = {
+			isa = PBXGroup;
+			children = (
+				18A26D201D55983F0037E9BF /* AppDelegate.h */,
+				18A26D211D55983F0037E9BF /* AppDelegate.m */,
+				18A26D231D55983F0037E9BF /* ViewController.h */,
+				18A26D241D55983F0037E9BF /* ViewController.m */,
+				18A26D561D55B3850037E9BF /* NetWrokRequestHelper */,
+				18A26D731D55C44D0037E9BF /* BaseViewController */,
+				18A26D771D55C6280037E9BF /* RootViewController.h */,
+				18A26D781D55C6280037E9BF /* RootViewController.m */,
+				18A26D261D55983F0037E9BF /* Main.storyboard */,
+				18A26D291D55983F0037E9BF /* Assets.xcassets */,
+				18A26D2B1D55983F0037E9BF /* LaunchScreen.storyboard */,
+				18A26D2E1D55983F0037E9BF /* Info.plist */,
+				18A26D1D1D55983F0037E9BF /* Supporting Files */,
+			);
+			path = PYAFN;
+			sourceTree = "<group>";
+		};
+		18A26D1D1D55983F0037E9BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A26D1E1D55983F0037E9BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A26D361D5598400037E9BF /* PYAFNTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A26D371D5598400037E9BF /* PYAFNTests.m */,
+				18A26D391D5598400037E9BF /* Info.plist */,
+			);
+			path = PYAFNTests;
+			sourceTree = "<group>";
+		};
+		18A26D411D5598400037E9BF /* PYAFNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A26D421D5598400037E9BF /* PYAFNUITests.m */,
+				18A26D441D5598400037E9BF /* Info.plist */,
+			);
+			path = PYAFNUITests;
+			sourceTree = "<group>";
+		};
+		18A26D561D55B3850037E9BF /* NetWrokRequestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				18A26D5A1D55B3A40037E9BF /* NetWrokRequestHelper.h */,
+				18A26D5B1D55B3A40037E9BF /* NetWrokRequestHelper.m */,
+			);
+			path = NetWrokRequestHelper;
+			sourceTree = "<group>";
+		};
+		18A26D731D55C44D0037E9BF /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18A26D7C1D55E3920037E9BF /* BaseViewController.h */,
+				18A26D7D1D55E3920037E9BF /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		73C562D95289F2717F096087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F075CCB9DEEB811FEC6872CE /* libPods-PYAFN.a */,
+				8B36815801EA16E1A98BB4F1 /* libPods-PYAFNTests.a */,
+				5B448A566BB9A32A0E4E2A60 /* libPods-PYAFNUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7FA007184807AA59F670C8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BF81033822CF5C73DC15952 /* Pods-PYAFN.debug.xcconfig */,
+				0DA426032B59DEAE0B88E234 /* Pods-PYAFN.release.xcconfig */,
+				4E928EFB614414D511A4B9B9 /* Pods-PYAFNTests.debug.xcconfig */,
+				933628DB6138968FEAD38210 /* Pods-PYAFNTests.release.xcconfig */,
+				AD2DF618222EE1EA28BADE07 /* Pods-PYAFNUITests.debug.xcconfig */,
+				1E9BE6609F3E8F696DFD3B6D /* Pods-PYAFNUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A26D191D55983F0037E9BF /* PYAFN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A26D471D5598400037E9BF /* Build configuration list for PBXNativeTarget "PYAFN" */;
+			buildPhases = (
+				F2C39718617AFB2CC2C9BAC0 /* [CP] Check Pods Manifest.lock */,
+				18A26D161D55983F0037E9BF /* Sources */,
+				18A26D171D55983F0037E9BF /* Frameworks */,
+				18A26D181D55983F0037E9BF /* Resources */,
+				9B7F67BA9A6CA91BEBF4CB30 /* [CP] Embed Pods Frameworks */,
+				F213886F4AF4BBEE679919CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYAFN;
+			productName = PYAFN;
+			productReference = 18A26D1A1D55983F0037E9BF /* PYAFN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A26D321D5598400037E9BF /* PYAFNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A26D4A1D5598400037E9BF /* Build configuration list for PBXNativeTarget "PYAFNTests" */;
+			buildPhases = (
+				669C8C7B342A795E2B8FA7B8 /* [CP] Check Pods Manifest.lock */,
+				18A26D2F1D5598400037E9BF /* Sources */,
+				18A26D301D5598400037E9BF /* Frameworks */,
+				18A26D311D5598400037E9BF /* Resources */,
+				2ED8277DC28747CDBA3F797D /* [CP] Embed Pods Frameworks */,
+				763FB39163206A0A9F3F4FE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A26D351D5598400037E9BF /* PBXTargetDependency */,
+			);
+			name = PYAFNTests;
+			productName = PYAFNTests;
+			productReference = 18A26D331D5598400037E9BF /* PYAFNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A26D3D1D5598400037E9BF /* PYAFNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A26D4D1D5598400037E9BF /* Build configuration list for PBXNativeTarget "PYAFNUITests" */;
+			buildPhases = (
+				6C0B93F12A5C6AE760176ACE /* [CP] Check Pods Manifest.lock */,
+				18A26D3A1D5598400037E9BF /* Sources */,
+				18A26D3B1D5598400037E9BF /* Frameworks */,
+				18A26D3C1D5598400037E9BF /* Resources */,
+				D2A2B9DEF5797E7AEE9A8913 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A26D401D5598400037E9BF /* PBXTargetDependency */,
+			);
+			name = PYAFNUITests;
+			productName = PYAFNUITests;
+			productReference = 18A26D3E1D5598400037E9BF /* PYAFNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A26D121D55983F0037E9BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18A26D191D55983F0037E9BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+					};
+					18A26D321D5598400037E9BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18A26D191D55983F0037E9BF;
+					};
+					18A26D3D1D5598400037E9BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18A26D191D55983F0037E9BF;
+					};
+				};
+			};
+			buildConfigurationList = 18A26D151D55983F0037E9BF /* Build configuration list for PBXProject "PYAFN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A26D111D55983F0037E9BF;
+			productRefGroup = 18A26D1B1D55983F0037E9BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A26D191D55983F0037E9BF /* PYAFN */,
+				18A26D321D5598400037E9BF /* PYAFNTests */,
+				18A26D3D1D5598400037E9BF /* PYAFNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A26D181D55983F0037E9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A26D2D1D55983F0037E9BF /* LaunchScreen.storyboard in Resources */,
+				18A26D2A1D55983F0037E9BF /* Assets.xcassets in Resources */,
+				18A26D281D55983F0037E9BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A26D311D5598400037E9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A26D3C1D5598400037E9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED8277DC28747CDBA3F797D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYAFNTests/Pods-PYAFNTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		669C8C7B342A795E2B8FA7B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0B93F12A5C6AE760176ACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		763FB39163206A0A9F3F4FE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYAFNTests/Pods-PYAFNTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7F67BA9A6CA91BEBF4CB30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYAFN/Pods-PYAFN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A2B9DEF5797E7AEE9A8913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYAFNUITests/Pods-PYAFNUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F213886F4AF4BBEE679919CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYAFN/Pods-PYAFN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C39718617AFB2CC2C9BAC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A26D161D55983F0037E9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A26D5C1D55B3A40037E9BF /* NetWrokRequestHelper.m in Sources */,
+				18A26D7E1D55E3920037E9BF /* BaseViewController.m in Sources */,
+				18A26D791D55C6280037E9BF /* RootViewController.m in Sources */,
+				18A26D251D55983F0037E9BF /* ViewController.m in Sources */,
+				18A26D221D55983F0037E9BF /* AppDelegate.m in Sources */,
+				18A26D1F1D55983F0037E9BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A26D2F1D5598400037E9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A26D381D5598400037E9BF /* PYAFNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A26D3A1D5598400037E9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A26D431D5598400037E9BF /* PYAFNUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A26D351D5598400037E9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A26D191D55983F0037E9BF /* PYAFN */;
+			targetProxy = 18A26D341D5598400037E9BF /* PBXContainerItemProxy */;
+		};
+		18A26D401D5598400037E9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A26D191D55983F0037E9BF /* PYAFN */;
+			targetProxy = 18A26D3F1D5598400037E9BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A26D261D55983F0037E9BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A26D271D55983F0037E9BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A26D2B1D55983F0037E9BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A26D2C1D55983F0037E9BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A26D451D5598400037E9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A26D461D5598400037E9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A26D481D5598400037E9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF81033822CF5C73DC15952 /* Pods-PYAFN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYAFN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYAFN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A26D491D5598400037E9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA426032B59DEAE0B88E234 /* Pods-PYAFN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYAFN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYAFN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A26D4B1D5598400037E9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E928EFB614414D511A4B9B9 /* Pods-PYAFNTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYAFNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYAFNTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYAFN.app/PYAFN";
+			};
+			name = Debug;
+		};
+		18A26D4C1D5598400037E9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933628DB6138968FEAD38210 /* Pods-PYAFNTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYAFNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYAFNTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYAFN.app/PYAFN";
+			};
+			name = Release;
+		};
+		18A26D4E1D5598400037E9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2DF618222EE1EA28BADE07 /* Pods-PYAFNUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PYAFNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYAFNUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYAFN;
+			};
+			name = Debug;
+		};
+		18A26D4F1D5598400037E9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9BE6609F3E8F696DFD3B6D /* Pods-PYAFNUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PYAFNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYAFNUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYAFN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A26D151D55983F0037E9BF /* Build configuration list for PBXProject "PYAFN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A26D451D5598400037E9BF /* Debug */,
+				18A26D461D5598400037E9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A26D471D5598400037E9BF /* Build configuration list for PBXNativeTarget "PYAFN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A26D481D5598400037E9BF /* Debug */,
+				18A26D491D5598400037E9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A26D4A1D5598400037E9BF /* Build configuration list for PBXNativeTarget "PYAFNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A26D4B1D5598400037E9BF /* Debug */,
+				18A26D4C1D5598400037E9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A26D4D1D5598400037E9BF /* Build configuration list for PBXNativeTarget "PYAFNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A26D4E1D5598400037E9BF /* Debug */,
+				18A26D4F1D5598400037E9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A26D121D55983F0037E9BF /* Project object */;
+}
